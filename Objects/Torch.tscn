@@ -72,7 +72,7 @@ _data = [ Vector2( 0, 0 ), 0.0, 0.0, 0, 0, Vector2( 0.236, 0.821591 ), 0.776053,
 size = Vector2( 1.5, 1.5 )
 
 [sub_resource type="AnimatedTexture" id=8]
-flags = 3
+flags = 19
 frames = 4
 frame_0/texture = ExtResource( 3 )
 frame_1/texture = ExtResource( 5 )

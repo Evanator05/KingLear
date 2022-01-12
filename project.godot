@@ -25,6 +25,8 @@ Globals="*res://Code/globals.gd"
 [display]
 
 window/size/fullscreen=true
+window/vsync/use_vsync=false
+window/stretch/aspect="expand"
 
 [editor_plugins]
 
