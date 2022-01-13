@@ -30,8 +30,11 @@ func _process(delta):
 	water.rotation_degrees.y = (cos(timer))*1.5
 	
 	if changeScene:
+		$AudioStreamPlayer.stop()
+		$AudioStreamPlayer2.stop()
 		if fade.color.a > .99:
 			var _level = get_tree().change_scene(scene)
+		
 
 
 func _on_Play_pressed():
